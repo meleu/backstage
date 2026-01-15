@@ -54,6 +54,7 @@
     "@backstage/core-plugin-api": "workspace:^",
     "@backstage/frontend-plugin-api": "workspace:^",
     "@backstage/integration-react": "workspace:^",
+    "@backstage/plugin-app-react": "workspace:^",
     "@backstage/plugin-permission-react": "workspace:^",
     "@backstage/theme": "workspace:^",
     "@backstage/types": "workspace:^",
