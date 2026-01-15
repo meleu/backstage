@@ -43,6 +43,10 @@ Icon bundle extensions provide the ability to replace or provide new icons to th
 
 Translation extension provide custom translation messages for the app. They can be used both to override the default english messages to custom ones, as well as provide translations for additional languages.
 
+### Plugin Wrapper - [Reference](https://backstage.io/api/stable/variables/_backstage_frontend-plugin-api.PluginWrapperBlueprint.html)
+
+Plugin wrappers allow you to install components that will wrap all elements rendered as part of a plugin. This can be useful if you for example need to add a global provider for example for a query client. The provided wrapper will be rendered as separate elements for each wrapped plugin element, so be sure to use a central store like a [Utility API](../utility-apis/01-index.md) if you want to share state between wrapper instances.
+
 ## Extension blueprints in `@backstage/plugin-catalog-react/alpha`
 
 These are the [extension blueprints](../architecture/23-extension-blueprints.md) provided by the Catalog plugin.
