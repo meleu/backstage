@@ -1,5 +1,13 @@
 # @backstage/plugin-auth
 
+## 0.1.4
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/core-components@0.18.5
+  - @backstage/frontend-plugin-api@0.13.3
+
 ## 0.1.4-next.0
 
 ### Patch Changes

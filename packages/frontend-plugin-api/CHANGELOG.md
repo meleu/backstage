@@ -1,5 +1,11 @@
 # @backstage/frontend-plugin-api
 
+## 0.13.3
+
+### Patch Changes
+
+- 872eb91: Upgrade `zod-to-json-schema` to latest version
+
 ## 0.13.2
 
 ### Patch Changes
