@@ -4169,7 +4169,10 @@ __metadata:
     "@testing-library/react": "npm:^16.0.0"
     react: "npm:^18.0.2"
   peerDependencies:
+    "@types/react": ^17.0.0 || ^18.0.0
     react: ^17.0.0 || ^18.0.0
+    react-dom: ^17.0.0 || ^18.0.0
+    react-router-dom: ^6.3.0
   languageName: unknown
   linkType: soft
 
